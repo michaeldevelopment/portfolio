@@ -1,0 +1,12 @@
+.navmenuContainer {
+  display: flex;
+  background-color: whitesmoke;
+  padding: 20px;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  width: 40vw;
+
+  a {
+    text-decoration: none;
+  }
+}

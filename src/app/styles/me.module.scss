@@ -1,0 +1,11 @@
+@use "container";
+
+.meContainer {
+  @include container.container-size;
+  justify-content: space-around;
+  align-items: center;
+
+  div:first-child {
+    width: 60vw;
+  }
+}
